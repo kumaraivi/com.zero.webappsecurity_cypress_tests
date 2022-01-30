@@ -16,7 +16,7 @@ When('I enter name subject email and questions', () => {
     WASFeedbackPage.enterName()
     WASFeedbackPage.enterEmail()
     WASFeedbackPage.enterSubject()
-    WASFeedbackPage.enterComment()
+    //WASFeedbackPage.enterComment()
 })
 And('I click on Send Message button', () => {
     WASFeedbackPage.clickSendMessage()
